@@ -1,0 +1,59 @@
+#container
+{
+    width:80%;
+    background-color:#000099;
+    height:800px;
+    Margin-top:0;
+    margin-right:auto;
+    margin-left:auto;
+    padding:10px;
+}
+li{
+    display:inline;
+    float:left;
+}
+a{
+    text-decoration:none;
+    padding:10px;
+    background-color: white;
+    display:block;
+
+}
+body{
+    /*background-image:url(../Downloads/mountains.jpg);*/
+    background:linear-gradent(green,orange);
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0;
+
+}
+
+img{
+    width:425;
+    height:235;
+    border:solid 5px yellow;
+    border-radius:15px;
+}
+table{
+    border: solid 5px yellow;
+    border-collapse: collapse;
+    width:40%;
+}
+th{
+    font-size: 16pt;
+    font-weight:bold;
+    text-align:left;
+}
+
+td{
+    font-size:18pt;
+    font-family:arail,sans-serif;
+
+li a:hover  {
+    background-color: #30CC93;
+}
+
+ul  {
+    background-color: white;
+    width:95%;
+}
